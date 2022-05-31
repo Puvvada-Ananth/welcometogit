@@ -13,7 +13,6 @@ jobs:
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - name: List files in the repository
         run: |
-          mkdir puvvadasaiananth ${{ github.workspace }}
           ls ${{ github.workspace }}
           lsblk
           df -Th
